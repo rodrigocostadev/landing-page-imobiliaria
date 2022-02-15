@@ -111,14 +111,12 @@ body{
         box-sizing: border-box;    
         font-weight: bold; 
         margin-bottom: 80px;
-        font-size: 30px;
-        
+        font-size: 30px;        
     }
 
     .happyimage{
         float: right;
-        margin-right: 150px;
-        
+        margin-right: 150px;        
     }
 
 
@@ -375,4 +373,53 @@ body{
             width: 100px;  
             margin-top: 20px;
             }
+    }
+
+    @media screen and (max-width: 440px){
+
+        .tittle{               
+            margin-top: 2px;                   
+            font-size: 15px;                          
+        }
+
+        .validate{
+            display: inline-block;
+            text-align: center;
+            background-color: #FFFFFFBB ;
+            width: 280px;
+            height: 180px;        
+            border-radius: 15px;        
+            position: relative;  
+        }
+        .subtittle{
+            font-size: 6px;
+            margin-bottom: 280px;
+            font-weight: bold;
+        } 
+        
+        .submit{        
+            padding: 5px;
+            width: 100px;  
+            margin-top: 18px;
+            display: block;
+            transform: translate(100%);
+            
+        }
+
+        input{
+            margin-bottom: 6px;
+        } 
+
+        .textfooter{
+            color: white;
+            padding-top: 3px;   
+            box-sizing: border-box;    
+            font-weight: bold; 
+            margin-bottom: 80px;
+            font-size: 15px;       
+        }     
+        
+
+            
+        
     }
