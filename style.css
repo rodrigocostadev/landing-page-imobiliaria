@@ -94,6 +94,7 @@ body{
         margin-top: 15px;
         font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
         font-size: 25px;
+        
     }
 
     .footer{
@@ -252,6 +253,7 @@ body{
                 margin-top: 15px;
                 font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
                 font-size: 20px;
+                
             }
 
             input{
@@ -306,6 +308,7 @@ body{
                 margin-top: 15px;
                 font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
                 font-size: 15px;
+                
             }
 
             input{
@@ -389,7 +392,16 @@ body{
             width: 280px;
             height: 180px;        
             border-radius: 15px;        
-            position: relative;  
+            position: relative;
+            margin-left: 4px;
+            margin-right: 4px; 
+            
+        }
+
+        .textbox{
+            text-align: center;
+            margin-left: 15px;
+            margin-right: 15px;
         }
         .subtittle{
             font-size: 8px;
